@@ -1,0 +1,59 @@
+.ChooseUs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:50px;
+}
+
+.choose-us-cards{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.choose-us-card{
+    box-shadow: 1px 1px 8px 2px gray;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(224, 234, 240);
+}
+
+.choose-us-card:hover{
+    padding:20px;
+}
+
+.why-choose-us-acca-items{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    width:100%;
+}
+
+.why-choose-us-acca-items li{
+    width:20%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 5px gray;
+    text-align: center;
+    padding:10px;
+    color:rgb(51, 51, 142);
+}
+.why-choose-us-acca-items li:hover{
+    padding:18px;
+    box-shadow: 1px 1px 12px 5px gray;
+}
+.why-choose-us-acca-items li h4,p{
+    margin:1px;
+}

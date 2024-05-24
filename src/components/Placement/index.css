@@ -1,0 +1,10 @@
+.placements{
+    background-color: rgba(182, 119, 140, 0.345);
+    padding:20px;
+    position: relative;
+    top:50px;
+}
+
+.placements h1{
+    text-align: center;
+}

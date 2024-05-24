@@ -1,0 +1,41 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(192, 226, 255);
+    padding:20px;
+    position: relative;
+    top: 70px;
+}
+
+footer button{
+    border:none;
+    padding:10px;
+    color:#fff;
+    background-color: red;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+
+.popups{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    min-width:400px;
+    min-height: 200px;
+    top:-30%;
+    left:30%;
+    border-radius: 10px;
+    background-color: #b7ecb2;
+    padding:20px;
+}
+
+.popups button{
+    background-color: rgb(51, 51, 142);
+    color:#fff;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+}
